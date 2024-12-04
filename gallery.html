@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header align = "center">
+        <h1>  Галерея:   Наша продукция  </h1>
+        <ul>
+            <li><a href = "index.html">Главная</a></li> 
+            <li><a href = "contacts.html">Контакты</a></li>
+            <li><a href = "gallery.html">Галерея</a></li>
+        </ul>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+    </header>
+    
+    <div class="gallery_photo">
+        <a href="img/мыло1.jpg" data-fancybox="gallery">
+            <img src="img/мыло1.jpg" class="zoom-effect" >
+        </a>
+        <a href="img/мыло22.jpg" data-fancybox="gallery">
+            <img src="img/мыло22.jpg" class="zoom-effect" >
+        </a>
+        <a href="img/мыло333.jpg" data-fancybox="gallery">
+            <img src="img/мыло333.jpg" class="zoom-effect">
+        </a>
+        <a href="img/мыло4.jpg" data-fancybox="gallery">
+            <img src="img/мыло4.jpg" class="zoom-effect" >
+        </a>
+        <a href="img/мыло5.jpg" data-fancybox="gallery">
+            <img src="img/мыло5.jpg" class="zoom-effect">
+        </a>
+        <a href="img/мыло6.jpg" data-fancybox="gallery">
+            <img src="img/мыло6.jpg" class="zoom-effect">
+        </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind('[data-fancybox="gallery"]', {});
+    </script>
+    <footer style="text-align: center; padding: 20px; background: linear-gradient( #FAEBD7,#FFFAFA) ">
+        Телефон: <a href="tel:+1234567890" style="margin-right: 20px;">+7 (123) 456-789</a>
+        <p style="margin: 0;">
+        Эл. почта: <a href="mailto:example@example.com">soapHM@mail.ru</a>
+    </p>
+    
+</body>
+</html>
